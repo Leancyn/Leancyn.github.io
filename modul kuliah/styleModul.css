@@ -434,6 +434,12 @@ body {
     align-items: left;
     position: fixed;
   }
+
+  .navbar {
+    background-color: var(--bg);
+  }
+
+
 }
 
 /* Handphone */
