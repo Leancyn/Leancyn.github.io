@@ -215,9 +215,9 @@ body {
 
 /* Hero Section */
 
-/*.hero .contain h1 {
+.hero .contain h1 {
     display: flex;
-    justify-content: right;
+    justify-content: row;
     margin-top: -2.2em;
     font-size: 2em;
     padding: 10rem 7% 1rem;
@@ -228,24 +228,12 @@ body {
     line-height: 1.2;
 }
 
-/*.hero .contain h2 {
-    display: flex;
-    justify-content: left;
-    margin-top: -2.2em;
-    font-size: 2em;
-    padding: 1rem 7% 1rem;
-    flex-direction: row;
-    text-align: center;
-    color: #fff;
-    text-shadow: 1px 1px 3px rgba(1, 1, 3,0.5);
-    line-height: 1.2;
-}*/
 
 .hero .contain h1 span {
   color: var(--primary);
 }
 
-/* About Section */
+/* About Section 
 
 .about {
   padding: 8rem 7% 1.4rem;
