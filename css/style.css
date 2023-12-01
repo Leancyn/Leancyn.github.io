@@ -434,15 +434,20 @@ img {
         font-size: 2.2rem;
     }
 
+    .menu {
+        flex-wrap: wrap;
+    }
+
     .navbar .dom ul li a{
+        display: flex;
         color: #fff;
         align-items: center;
-        font-size: 15px;
+        font-size: 1rem;
         font-weight: 400;
         text-align: center;
-        padding: 0.2rem 0.7em;
+        padding: 0.2rem 0.6em;
         margin: 0.5em 0;
-        border-radius: 0.2em;
+        border-radius: 0.5em;
         transition: 0.3s;
     }
 
