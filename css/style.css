@@ -440,10 +440,14 @@ img {
         font-size: 15px;
         font-weight: 400;
         text-align: center;
-        padding: 0.2rem 0.9em;
+        padding: 0.2rem 0.7em;
         margin: 0.5em 0;
-        border-radius: 0.5em;
+        border-radius: 0.2em;
         transition: 0.3s;
+    }
+
+    .navbar .dom ul li a{
+        flex-wrap: wrap;
     }
 
     .caret {
@@ -454,7 +458,7 @@ img {
     border-right: 5px solid transparent;
     border-top: 8px solid var(--bg);
     transition: 0.2s linear;
-}
+    }
 
     .dropdown .selected .menu:after {
         transform-origin: 0 0;
