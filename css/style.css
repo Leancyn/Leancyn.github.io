@@ -330,6 +330,8 @@ body {
     height: 30rem;
     border-radius: 50%;
     margin-right: 30px;
+    border: 3px solid #000;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.8);
   }
   
   .content {
